@@ -326,12 +326,12 @@ scalaVersion := "2.10.2"
 scalaBinaryVersion <<= scalaVersion { sv => sv }
 
 resolvers ++= Seq(
-    "Hablapps - releases" at "http://repo.speechlang.org/releases",
-    "Hablapps - snapshots" at "http://repo.speechlang.org/snapshots"
+  "Hablapps - releases" at "http://repo.speechlang.org/releases",
+  "Hablapps - snapshots" at "http://repo.speechlang.org/snapshots"
 )
 
 libraryDependencies ++= Seq(
-    "org.hablapps" %% "updatable" % "latest.integration"
+  "org.hablapps" %% "updatable" % "latest.integration"
 )
 ```
 
